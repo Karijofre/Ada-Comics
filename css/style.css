@@ -26,3 +26,17 @@
     transform: rotate(360deg);
    -webkit-transform: rotate(360deg);
 }
+
+.is-16by9{
+    padding-top:35% !important;
+    width: 90%;
+    margin: auto;
+}
+
+.is-info{
+    background-color: black !important;
+}
+
+.type, .order{
+    margin: auto;
+}
