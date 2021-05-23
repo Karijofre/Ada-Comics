@@ -9,7 +9,7 @@
 
 .ada-title{
     color:white;
-    font-size: 50px;
+    font-size: 45px;
     background: rgb(0,17,103);
     background: radial-gradient(circle, rgba(0,17,103,1) 0%, rgba(228,46,68,1) 100%);
     margin: 0;
@@ -40,3 +40,27 @@
 .type, .order{
     margin: auto;
 }
+
+.pagination.is-centered .pagination-previous{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav.pagination.is-centered{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination.is-centered .pagination-next{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.input{
+    width: 18rem !important;
+}
+
