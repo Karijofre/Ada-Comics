@@ -25,6 +25,7 @@
    -webkit-box-shadow: 0px 0px 15px 15px red;
     transform: rotate(360deg);
    -webkit-transform: rotate(360deg);
+   transition: all 5s ease;
 }
 
 .is-16by9{

@@ -30,10 +30,10 @@
 <nav class="navbar my-5" role="navigation" aria-label="main navigation">
     <div class="field has-addons">
         <div class="control">
-          <input class="input" type="text" placeholder="Ingresa tu búsqueda">
+          <input id="search-input" class="input" type="text" placeholder="Ingresa tu búsqueda">
         </div>
         <div class="control">
-          <a class="button is-info">
+          <a id="search-button" class="button is-info">
             BUSCAR
           </a>
         </div>
@@ -44,18 +44,18 @@
       </div>
   
       <div class="navbar-end">
-        <div class="navbar-item has-dropdown is-hoverable">
+        <div id="search-type" class="navbar-item has-dropdown is-hoverable">
             <p class="type">TIPO</p>
-            <a class="navbar-link">
+            <a id="search-comics" class="navbar-link">
               COMICS
             </a>
             <div class="navbar-dropdown">
-              <a class="navbar-item">
+              <a id="search-characters" class="navbar-item">
                 PERSONAJES
               </a>
             </div>
           </div>
-          <div class="navbar-item has-dropdown is-hoverable">
+          <div id="search-sort" class="navbar-item has-dropdown is-hoverable">
               <p class="order">ORDEN</p>
             <a class="navbar-link">
               A-Z

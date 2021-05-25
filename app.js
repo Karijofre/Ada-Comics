@@ -26,5 +26,16 @@ const url= `https://gateway.marvel.com:443/v1/public/comics?limit=20&offset=0&ts
 
 fetch(url)
     .then(answer => answer.json())
-    .then(obj => printData(obj.data.results))
+    .then(obj => printComics(obj.data.results))
     .catch(error => console.error(error))
+
+
+
+const url2= `https://gateway.marvel.com:443/v1/public/characters?limit=20&offset=0&ts=${timestamp}&apikey=${public}&hash=${hash}`
+
+fetch(url2)
+    .then(answer => answer.json())
+    .then(obj => printCharacters(obj.data.results))
+    .catch(error => console.error(error))
+
+
